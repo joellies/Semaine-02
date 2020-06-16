@@ -18,6 +18,8 @@ let siriusGroupArray = [
   'Majda',
   'Natascha',
   'Joellie',
+  'Gilles',
+  'Lionel',
 ];
 console.log(siriusGroupArray[6]);
 console.log(siriusGroupArray[9]);
