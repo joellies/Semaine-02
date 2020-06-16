@@ -1,6 +1,8 @@
-body{
-  width: 100%
+body {
+  width: 100%;
 }
-a{
-  
+a {
+}
+nav {
+  display: inline-block;
 }

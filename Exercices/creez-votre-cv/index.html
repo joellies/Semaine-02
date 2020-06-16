@@ -9,26 +9,34 @@
   </head>
   <body>
     <!-- Hello Sirius, voici mon CV -->
-    <section id="profile">
-      <div id="name">
+    <header>
+      <div class="name">
         <h1>Joéllie Sprumont</h1>
       </div>
-      <div id="photo">
+      <nav>
+          <a href="#about-me">About</a>
+          <a href="#formations">Formations</></a>
+          <a href="#experiences">Expériences</a>
+          <a href="#skills">Skills</a>
+      </nav>
+    </header>
+    <section class="profile-section">
+      <div class="photo">
         <img src="joellie-sprumont.jpg" alt="une photo de Joéllie Sprumont" />
       </div>
-      <div id="about">
-        <div>
+      <div class="about">
+        <div id ="about-me">
           <h2>A propos de moi</h2>
         </div>
         <article><em>Texte à propos</em></article>
       </div>
-      <div id="contact">
+      <div class="contact">
         <div>
           <h3>Informations de contact</h3>
         </div>
         <div id="links">
           <div>
-            <h2>Liens</h2>
+            <h3>Liens</h3>
           </div>
           <div>
             <a href="https://www.linkedin.com/in/joelliesprumont.com">
@@ -42,10 +50,10 @@
         </div>
       </div>
     </section>
-    <section id="second-section">
+    <section class="second-section">
       <div id="formations">
         <div>
-          <h3>Formations</h3>
+          <h2>Formations</h2>
         </div>
         <div id="table-formations">
           <table>
@@ -83,7 +91,7 @@
       </div>
       <div id="experiences">
         <div>
-          <h3>Expériences</h3>
+          <h2>Expériences</h2>
         </div>
         <div id="table-experiences">
           <table>
@@ -119,9 +127,14 @@
               </tr>
             </tbody>
           </table>
+          </div>
         </div>
+    </section>
+    <section class="third-section"
         <div id="skills">
-          <div><h3>Skills</h3></div>
+          <div>
+            <h2>Skills</h2>
+          </div>
           <div>
             <ul>
               <li>Rédaction offline & web</li>
@@ -134,15 +147,17 @@
             </ul>
           </div>
         </div>
-        <div id="soft-skills">
-          <div><h3>Soft skills</h3></div>
+        <div class="soft-skills">
+          <div>
+            <h3>Soft skills</h3>
+          </div>
           <div>
             <ul>
               <li></li>
             </ul>
           </div>
         </div>
-        <div id="interests">
+        <div class="interests">
           <div>
             <h3>Intérêts</h3>
           </div>
@@ -158,5 +173,8 @@
         </div>
       </div>
     </section>
+    <footer>
+      <p>@ Joéllie Sprumont - 2020</p>
+    </footer>
   </body>
 </html>
